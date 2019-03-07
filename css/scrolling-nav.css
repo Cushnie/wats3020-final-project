@@ -3,16 +3,10 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
-header {
+ header {
   padding: 156px 0 100px;
 }
 
 section {
   padding: 150px 0;
 }
-
-.fa-spin-fast {
-  -webkit-animation: fa-spin-fast 0.2s infinite linear;
-  animation: fa-spin-fast 0.2s infinite linear;
-}
-
