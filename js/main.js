@@ -38,7 +38,7 @@ for (let i = 0; i < data.length; i++) {
         let heartelems = document.querySelectorAll(".fa-heart");
         for (heart of heartelems) {
             heart.addEventListener("click", function (event) {
-                alert("Arp! Arp! Arp!");
+                alert("Hi friend!");
             })
         }
 //     })
