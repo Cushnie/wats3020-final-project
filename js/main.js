@@ -1,14 +1,25 @@
 const data = [{
-        taxonomy: "Zalophus californiaus",
-        name: "California Sea Lion"
+        name: "California Sea Lion",
+        taxonomy: "Zalophus californiaus"
     },
     {
-        taxonomy: "Eumetopias jubatus",
-        name: "Steller Sea Lion"
+        name: "Steller Sea Lion",
+        taxonomy: "Eumetopias jubatus"
     },
     {
-        taxonomy: "Phoca vitulina richardii",
-        name: "Pacific Harbor Seal"
+        name: "Northern Fur Seal",
+        taxonomy: "Callorhinus ursinus"
+    },
+    {
+        name: "Pacific Harbor Seal",
+        taxonomy: "Phoca vitulina richardii"
+    },
+    {   name: "Norther Sea Otter",
+        taxonomy: "Enhydra lutris kenyoni"
+    },
+    {
+        name: "Orca or Killer Whale",
+        taxonomy: "Orcinus orca"
     }
 ]
 // for (pinniped in data) {
@@ -35,11 +46,11 @@ for (let i = 0; i < data.length; i++) {
 // let actionelems = document.querySelectorAll(".fa-bars");
 // for (let action of actionelems) {
 //     action.addEventListener("click", function (event) {
-        let heartelems = document.querySelectorAll(".fa-heart");
-        for (heart of heartelems) {
-            heart.addEventListener("click", function (event) {
-                alert("Hi friend!");
-            })
-        }
+let heartelems = document.querySelectorAll(".fa-heart");
+for (heart of heartelems) {
+    heart.addEventListener("click", function (event) {
+        alert("Hi friend!");
+    })
+}
 //     })
 // }
