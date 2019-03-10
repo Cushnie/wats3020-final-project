@@ -91,7 +91,6 @@ for (let i = 0; i < data.length; i++) {
     }
 }
 
-
 // let actionelems = document.querySelectorAll(".fa-bars");
 // for (let action of actionelems) {
 //     action.addEventListener("click", function (event) {
