@@ -14,12 +14,61 @@ const data = [{
         name: "Pacific Harbor Seal",
         taxonomy: "Phoca vitulina richardii"
     },
-    {   name: "Norther Sea Otter",
+    {
+        name: "Norther Sea Otter",
         taxonomy: "Enhydra lutris kenyoni"
     },
     {
         name: "Orca or Killer Whale",
         taxonomy: "Orcinus orca"
+    },
+    {
+        name: "Aggregating Anemones",
+        taxonomy: "Anthopleura elegantissima"
+    },
+    {
+        name: "Ochre Sea Star",
+        taxonomy: "Pisaster ochraceus"
+    },
+    {
+        name: "Kelp Crab",
+        taxonomy: "Pugettia producta"
+    },
+    {
+        name: "Tidepool Sculpin",
+        taxonomy: "Oligocottus maculatus"
+    },
+    {
+        name: "Lemon Peel Nudibranch",
+        taxonomy: "Anisodoris nobilis"
+    },
+    {
+        name: "Bull Kelp",
+        taxonomy: "Nereocytis luetkeana"
+    },
+    {
+        name: "Glaucous-winged Sea Gull",
+        taxonomy: "Larus glaucescens"
+    },
+    {
+        name: "Pigeon Guillemot",
+        taxonomy: "Cepphus columba"
+    },
+    {
+        name: "Great Blue Heron",
+        taxonomy: "Ardea herodias"
+    },
+    {
+        name: "Bald Eagle",
+        taxonomy: "Haliaeetus leucocephalus"
+    },
+    {
+        name: "Black Oystercatcher",
+        taxonomy: "Haematopus bachmani"
+    },
+    {
+        name: "Western Grebe",
+        taxonomy: "Aechmophorus occidentalis"
     }
 ]
 // for (pinniped in data) {
