@@ -1,6 +1,6 @@
 const data = [{
         name: "California Sea Lion",
-        taxonomy: "Zalophus californiaus"
+        taxonomy: "Zalophus californiaus",
     },
     {
         name: "Steller Sea Lion",
@@ -90,6 +90,20 @@ for (let i = 0; i < data.length; i++) {
 let heartelems = document.querySelectorAll(".fa-heart");
 for (heart of heartelems) {
     heart.addEventListener("click", function (event) {
+        alert("I love you too!");
+    })
+}
+
+let eyeelems = document.querySelectorAll(".fa-eye");
+for (eye of eyeelems) {
+    eye.addEventListener("click", function (event) {
         alert("Hi friend!");
+    })
+}
+
+let globeelems = document.querySelectorAll(".fa-globe");
+for (globe of globeelems) {
+    globe.addEventListener("click", function (event) {
+        alert("Where did you see me today?");
     })
 }
