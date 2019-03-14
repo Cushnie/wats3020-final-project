@@ -1,6 +1,8 @@
 const data = [{
         name: "California Sea Lion",
         taxonomy: "Zalophus californiaus",
+        // mc-content: "The California Sea Lion is seen up and down the West Coast of the US",
+        // pic: "images/califsealion.jpg"     
     },
     {
         name: "Steller Sea Lion",
@@ -84,7 +86,9 @@ for (let i = 0; i < data.length; i++) {
     if (taxonomyelem) {
         taxonomyelem.innerHTML = marinebio.taxonomy;
     }
+    
 }
+
 
 
 let heartelems = document.querySelectorAll(".fa-heart");
