@@ -46,39 +46,49 @@ const data = [{
     },
     {
         name: "Tidepool Sculpin",
-        taxonomy: "Oligocottus maculatus"
+        taxonomy: "Oligocottus maculatus",
+        info: "Sculpins are carnivores, and this little species hunts for the small crustaceans and worms of several types that are common in its habitat. It is similarly sought by larger predatory species. Most sculpins are protected from predation by sharp spines on their head and gill covers, but this species is not very heavily spined. They have the ability to extract oxygen directly from the air; in other words, they breathe air."
     },
     {
         name: "Lemon Peel Nudibranch",
-        taxonomy: "Anisodoris nobilis"
+        taxonomy: "Anisodoris nobilis",
+        info: "Most nudibranchs sport bright colors—sea lemons are deep yellow to burnt orange. Black spots mingle with protruding bumps (tubercles) on the sea lemon's back. Fleshy antennae (sensory organs) and a rosette of gills protrude from the back of a sea lemon's slim, flat body. Sea lemons breathe through the rosette of gills on their back."
+
     },
     {
         name: "Bull Kelp",
-        taxonomy: "Nereocytis luetkeana"
+        taxonomy: "Nereocytis luetkeana",
+        info: "Bull Kelp is easily recognized by its very long stipe (stalk), up to 30 meters or more in length, extending from the holdfast that attaches it to the bottom to a floating hollow bulb that may be over 10 centimeters in diameter. Long, leaflike blades up to three meters in length branch from the bulb and spread out to float on the surface. These blades provide the plant with both photosynthesis and nutrient absorption. The hollow upper part of the stalk is also filled with gas (including carbon monoxide!), so the stalks float in long snaky rows at lower tides."
     },
     {
         name: "Glaucous-winged Sea Gull",
-        taxonomy: "Larus glaucescens"
+        taxonomy: "Larus glaucescens",
+        info: "Although a dozen species of gulls occur in and around Puget Sound, the Glaucous-winged is the only one that breeds in the Sound and is usually by far the most commonly seen species. Light brown juveniles grow in more gray and white plumage with every molt, and the bill changes from black to yellow with a red spot, the feet from dull to bright pink."
     },
     {
         name: "Pigeon Guillemot",
-        taxonomy: "Cepphus columba"
+        taxonomy: "Cepphus columba",
+        info: "Pigeon Guillemots are one of only a few species of seabirds that nest on the shores of Puget Sound. They are able to do this because they are crevice and burrow nesters, and the dark recesses of docks and piers are seen as adequate substitutes for natural crevices or burrows they themselves dig in vertical banks above the water."
     },
     {
         name: "Great Blue Heron",
-        taxonomy: "Ardea herodias"
+        taxonomy: "Ardea herodias",
+        info: "These large birds are easily recognizable by their long neck and legs and overall gray-blue coloration. With further scrutiny, you can see that they are really handsomely patterned, with black plumes on a white head, bold black patches on the underparts, and even swatches of rufous on the wings and thighs. The flight feathers are conspicuously darker than the rest of the wing. Great Blue Herons take off with neck extended, but then pull it into a graceful S shape as they fly."
     },
     {
         name: "Bald Eagle",
-        taxonomy: "Haliaeetus leucocephalus"
+        taxonomy: "Haliaeetus leucocephalus",
+        info: "They are present year-round throughout most parts of Washington with the highest densities in the Puget Sound region. Individuals occur in the Puget Sound basin as migrants, winter residents and members of the breeding population. They are often associated with shorelines and large, open expanses of water. Bald eagles are opportunistic foragers that feed most frequently on fish and waterfowl, consuming live fish and birds as well as scavenging upon dead fish, birds and mammals. They are known to hunt in both seabird and great blue heron colonies."
     },
     {
         name: "Black Oystercatcher",
-        taxonomy: "Haematopus bachmani"
+        taxonomy: "Haematopus bachmani",
+        info: "Found on the North American Pacific coast from the Aleutian Islands in Alaska to Baja California, the black oystercatcher’s thick, long beak glows orange-red so from a distance it looks like it’s eating a carrot! Sturdy pinkish-grey legs and large feet allow it to confidently stroll through rocks and tide pools looking for prey. Today’s estimated 11,000 oystercatchers is a much smaller population than flourished in the Pacific Northwest a century ago."
     },
     {
         name: "Western Grebe",
-        taxonomy: "Aechmophorus occidentalis"
+        taxonomy: "Aechmophorus occidentalis",
+        info: "Western Grebes are large and slender with long necks and long, thin bills. Plumage is dark gray above and white below, with a clear color division. The top of the face is black, and the bottom white. The black extends below the eye in the Western Grebe. (In the closely related and similar-appearing Clark's Grebe, the black ends above the eye.) The bill of the Western Grebe is yellowish to dull olive."
     }
 ]
 
@@ -111,6 +121,7 @@ for (let i = 0; i < data.length; i++) {
 //       return false;
 //     }
 //   }
+// <!-- trying to figure out how to create a "clicked" & "record" event with the icons ... using some script from the tic tac toe game and seeing how I can incorporate it here -->
 
 let heartelems = document.querySelectorAll(".fa-heart");
 for (heart of heartelems) {
